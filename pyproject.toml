@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "Dragon"
+version = "0.1.0"
+description = "Sample data for Aaron"
+authors = ["Najib Ishaq <najib.ishaq@nih.gov>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+matplotlib = "^3.7.0"
+jupyterlab = "^3.6.1"
+opencv-python-headless = "^4.7.0.68"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
