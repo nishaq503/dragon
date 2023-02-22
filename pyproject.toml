@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Dragon"
+name = "dragon"
 version = "0.1.0"
 description = "Sample data for Aaron"
 authors = ["Najib Ishaq <najib.ishaq@nih.gov>"]
@@ -13,6 +13,7 @@ pandas = "^1.5.3"
 matplotlib = "^3.7.0"
 jupyterlab = "^3.6.1"
 opencv-python-headless = "^4.7.0.68"
+pyarrow = "^11.0.0"
 
 
 [build-system]
